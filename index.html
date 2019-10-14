@@ -3,12 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-     </head>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: 	#F5F5F5;
+  color: #000000;
+  padding: 16px;
+  font-size: 16px;
+  border: yes;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+    
 	<body bgcolor="#FFA500">
   <body>
-	 
-   <a href="aboutme.html">About Me</a>
-   <a href="portfolio.html">Porfolio</a>
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="aboutme.html">About Me</a>
+    <a href="portfolio.html">Porfolio</a>
+
+  </div>
+</div>
+</a>
 
     <center><h1>My name is Jonathan Ho and welcome to my AP CSP Home Page!</h1>
     <center><h2>Here, you will find links to my About Me and Portfolio pages!</h2>	
@@ -28,5 +73,4 @@
 
   </body>
 </html>
-
  
